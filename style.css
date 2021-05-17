@@ -4,6 +4,11 @@
     box-sizing: inherit;
 }
 
+::selection {
+    color: black;
+    background-color: white; 
+}
+
 html {
     font-size: 62.5%;
 }
@@ -65,6 +70,14 @@ h1 {
     cursor: pointer;
     padding: 20%;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(.95);
 }
 
 .btn-clear {
